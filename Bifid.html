@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <link rel="stylesheet" href="styles1.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+          </head>
+<!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<center>
+<title>Bifid</title>
+<h1>Bifid Cipher</h1>
+<h2>How to Solve</h2>
+<img src="images/Bifid.png"/>
+<div>
+<p>When solving the Bifid Cipher, the player is given an encrypted message and a table.<br>
+ To decrypt the message, first need to find the coordinates of each letter in your message using the<br>
+ Y axis first and then the X axis (Column then Row). <br>
+For example on this Grid "Best Codes" would become "(1,2)(1,5)(4,3)(4,4) (1,3)(3,4)(4,5)(4,3)" .<br>
+Now you need to stack the coordinates on top of each other like this... <br>
+
+1 1 4 4 1 3 4 4 <br>
+
+2 5 3 4 3 4 5 3 <br>
+
+Now you put them horizontally and separate them into pairs like this.<br>
+ "11 44 13 44 25 34 34 53" <br>
+Each one of these pairs is a new set of coordinates on your grid using (Y,X). <br>
+Now our message is this "atctkoox" 
+
+To decode a message first you need to find the coordinates of each letter. So "atctkoox" becomes<br> 
+
+"11 44 13 44 25 34 34 53." <br> 
+
+Now each column of numbers is a coordinate. Once you have finished finding all of the coordinates you are done.<br>
+</p> 
+</div>
+<h3><B>Get Started</B></h3><br>
+<div>
+<p>1.Decrypt the message?<br>
+Cipher Text : condtcsoihnqwlifnyots </p><br>
+
+</div>
+<div>
+<p>2.Decrypt the message?<br>
+Cipher Text : lvqvrkdnvwvwiez</p><br>
+
+</div>
+<div>
+<p>3.Decrypt the message?<br>
+Cipher Text : ttibcfwrrlrynnckistk</p><br>
+
+</div>
+<button  type="button" class="btn btn-secondary"><a href="index.html"> Go back</a></button>
+</center>
+
+

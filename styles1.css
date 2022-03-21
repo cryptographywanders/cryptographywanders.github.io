@@ -1,0 +1,38 @@
+body{
+    color: white;
+    font-family: 'Hubballi', cursive;
+    background-color: black;
+}
+    h1{
+        font-size: 40px;
+
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    p{
+        font-size:24px;
+    }
+.submit-btn{
+    background-color: rgb(20, 9, 87);
+    border-color: whitesmoke;
+    color:white;
+    display:inline-block;
+    
+}
+    .btn {
+        background-color: rgb(95, 208, 236);
+    border-color: whitesmoke;
+    color:white;
+    
+}
+
+.ins{
+    position: relative;
+    left: 80px;
+    text-align: left;
+    
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+            <link rel="stylesheet" href="styles1.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+          </head>
+<!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<center>
+<title>Multiplicative Cipher</title>
+<h1>Multiplicative Cipher</h1>
+<h2>How to Solve</h2>
+<div>
+<p>Consider the letters and the associated numbers to be used as shown below,</p>
+<img src="images/multi.png"/>
+<p>To generate Multiplicative cipher, use the below formula:</p><br>
+<center>
+<p>(Alphabet Number * key)mod(total number of alphabets) <br></p>
+</center>
+ 
+<p>To encrypt the plain text and to find cipher text, key and plain text will given.<br> Use the above formula for each letter to be encrypted.<br> 
+
+Ex:<br> 
+
+Key = 4 <br>
+
+Alphabet = S <br>
+-------------------------<br>
+(18*3)%26 = 2 ,  
+
+B --> 2 <br>
+
+<B>Note:</B> Convert the decimals to whole numbers.</p><br>
+
+<div><p>How to find mod? <br>
+
+Ex: 35%26 --> 35/26  =1.346154(round of to 1) <br>
+
+-->1*26=26 <br>
+
+-->35-26=9(9 is marked to the letter to J, so J is the answer)</p><br>
+</div>
+<h3><B>Get Started</B></h3><br>
+<div><p>
+1.Generate the multiplicative cipher? <br>
+
+Plain Text: there is no excuse for not trying <br>
+
+Key : 3 </p><br>
+
+</div>
+<div>
+<p>2.Generate the multiplicative cipher? <br>
+Plain Text : knowledgeispower<br>
+Key : 6 </p><br>
+
+</div>
+<div>
+<p>3.Generate the multiplicative cipher? <br>
+Plain Text : abcdefghijklmnopqrstuvwxyz<br>
+Key : 4</p><br>
+
+</div>
+</div>
+<button  type="button" class="btn btn-secondary"><a href="index.html"> Go back</a></button>
+</center>
