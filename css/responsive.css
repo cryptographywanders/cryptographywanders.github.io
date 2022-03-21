@@ -125,9 +125,8 @@
         padding: 40px 0px 0px 0px;
     }
     .logo {
-        text-align: center !important;
         padding-bottom: 25px;
-        float: left;
+        float: right;
     }
     .text-bg h1 {
         font-size: 41px;
